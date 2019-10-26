@@ -11,12 +11,13 @@ ul.navigation {
     color: #777777;
     float: right;
     margin-right: 180px;
-    text-decoration: none;
 }
 
 ul.navigation li {
     float: right;
-    padding: 10px;
+    padding: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 h1, h3 {
@@ -34,6 +35,7 @@ img {
 .header {
     background-color: #ffffff;
     border-color: #cccccc;
+    height: 100px;
 }
 
 .name {
@@ -46,12 +48,15 @@ img {
 .footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
+    text-align: center;
 }
 
 .content {
     background-color: #ffffff;
     border-color: #dddddd;
     width: 960px;
+    margin: 20px 0;
+    padding: 10px 20px;
 }
 
 .teal {
