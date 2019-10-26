@@ -3,15 +3,17 @@ div {
 }
 
 body {
-    background-image: url("trees.png")
+    background-color: #cccccc;
 }
 
 p, h3 {
     color: #777777;
 }
 
-.navigation {
+ul.navigation {
+    list-style: none;
     color: #777777;
+    float: right;
 }
 
 h1, h3 {
@@ -34,6 +36,8 @@ img {
 .name {
     color: #ffffff;
     background-color: #4aaaa5;
+    width: 300px; 
+    text-align: center;
 }
 
 .footer {
@@ -44,8 +48,13 @@ img {
 .content {
     background-color: #ffffff;
     border-color: #dddddd;
+    width: 960px;
 }
 
 .teal {
     color: #4aaaa5;
+}
+
+.name, .content {
+    margin-left: 180px;
 }
