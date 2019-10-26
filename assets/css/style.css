@@ -2,6 +2,10 @@ div {
     border: solid black 1px;
 }
 
+body {
+    background-image: url("trees.png")
+}
+
 p, h3 {
     color: #777777;
 }
@@ -30,4 +34,8 @@ p {
 
 .teal {
     color: #4aaaa5;
+}
+
+.footer {
+    border-top: 8px solid #4aaaa5;
 }
