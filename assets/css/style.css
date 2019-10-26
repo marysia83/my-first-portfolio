@@ -10,6 +10,10 @@ p, h3 {
     color: #777777;
 }
 
+.navigation {
+    color: #777777;
+}
+
 h1, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -23,8 +27,14 @@ p {
     border-color: #cccccc;
 }
 
+.name {
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
 .footer {
     background-color: #666666;
+    border-top: 8px solid #4aaaa5;
 }
 
 .content {
@@ -34,8 +44,4 @@ p {
 
 .teal {
     color: #4aaaa5;
-}
-
-.footer {
-    border-top: 8px solid #4aaaa5;
 }
